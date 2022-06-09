@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width: 80%;
+            margin: auto;
+margin-top: 140px;
+            /* border: 1px solid red; */
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(1,500px); 
+            justify-content: space-evenly;
+            /* margin-left: 20px; */
+          
+
+        }
+     
+
+        #container>div>div>img{
+/* border: 1px solid black; */
+height: 380px;
+width: 300px;
+margin-left: 20px;
+        }
+
+        #container>div>h3{
+          font-size:x-large;
+          font-weight: bolder;
+          /* background-color: black;   */
+          margin-bottom: -10px;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #container>div>h3+p{
+            color: #666766;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        #container>div>p+p{
+            font-size: 23px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div>
+        <div>
+        <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPPAUSE-BLACK-PAUS57747861200F37/1562877340930_1..jpg?imwidth=282&impolicy=hq" alt=""></div>
+        <h3>Pause</h3>
+        <p>Color Block Men Hooded Neck Blue T-Shirt</p>
+        <p>₹344  <del>₹1,199</del> 71%  off</p>
+    </div>
+    <div>
+      <div>  <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPJUBINATION-SJERS295568BD3913AD/1562955990957_0..jpg?imwidth=320&impolicy=hq" alt=""></div>
+        <h3>Pause</h3>
+        <p>Jubination Sweaters Grey Wool For Men</p>
+        <p>₹799  <del>₹1,499</del>  47% off</p>
+    </div>
+    <div>
+       <div> <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPFRISKERS-SKIM-S-1065678365F6A/1562977589494_0..jpg?imwidth=320&impolicy=hq" alt=""></div>
+        <h3>Friskers</h3>
+        <p>Friskers SkinFull Sleeve Round neck T-shirt</p>
+        <p>₹444  <del>₹969</del> -66% off</p>
+    </div>
+    <div>
+      <div>  <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPPUMA-COTTON-PUMA33582375E29C63/1562993137313_0..jpg?imwidth=320&impolicy=hq" alt=""></div>
+        <h3>Puma</h3>
+        <p>Puma Men Black Round neck Sweatshirt</p>
+        <p>₹1,649  <del>₹2999</del> -45%</p>
+    </div>
+</div>
+</body>
+</html>
