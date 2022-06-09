@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@500&display=swap');
+    </style>
+    <title>Log in</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+        }
+
+        #main {
+            width: 470px;
+            height: 500px;
+            border: 1px solid transparent;
+
+            margin: auto;
+            margin-top: 70px;
+            border-radius: 10px;
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+
+
+        #main>p:first-child {
+            font-size: 35px;
+            font-weight: bold;
+            font-family: 'Pacifico', cursive;
+            font-family: 'Roboto', sans-serif;
+            cursor: default;
+        }
+
+        input {
+            width: 80%;
+            margin-top: 25px;
+            border: 1px solid transparent;
+            background-color: #f1f1f1;
+            text-rendering: auto;
+            padding: 5px;
+            border-bottom: 2px solid #626265;
+
+            outline: none;
+
+
+        }
+
+        button {
+            width: 80%;
+            padding: 12px;
+            /* background-color: #6c64be; */
+            background-image: linear-gradient(to right, #8700fd, #5500ff);
+            color: white;
+            font-weight: bold;
+
+            border: 1px solid transparent;
+            margin-bottom: 60px;
+            cursor: pointer;
+
+
+        }
+
+        #a {
+            color: #6c64be;
+            text-decoration: none;
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+
+        @media all and (min-width : 480px) and (max-width : 720px) {
+            #main {
+                width: 470px;
+
+            }
+        }
+
+        @media all and (min-width : 300px) and (max-width : 479px) {
+            #main {
+                width: 95%;
+                /* height: auto; */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <p>Login</p>
+        <input type="mail" placeholder="Email">
+        <br>
+
+        <input type="password" placeholder="Password">
+        <br>
+        <br>
+        <button>Login</button>
+        <br>
+        <p>Forget <a id="a" href="">Password</a>?</p>
+
+        <p>Dont't have an account? <a id="a" href="">Sing up</a></p>
+
+    </div>
+</body>
+
+</html>
