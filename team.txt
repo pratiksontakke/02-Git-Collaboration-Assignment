@@ -1,0 +1,11 @@
+Team Details:
+Team No: 92
+
+Team Members:
+fw19_0063 Pratik Sontakke (github: pratiksontakke)
+fw19_0843 Piyush Tyagi (github: piyush1856)
+fw19_0470 Gaurav Patil (github: gauravpatil83)
+fw19_0329 Ranjeet Kumar (github: ranjeetmasaischool)
+fw19_0703 Faizan Khan (github: Faizankhan99)
+Assignment Link:
+https://course.masaischool.com/assignments/11667/problem/25692
